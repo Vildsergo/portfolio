@@ -7,7 +7,7 @@
 }
 body {
   position: relative;
-  background-color: #fff;
+  background-image: url(img/111.png);
   font-family: "Montserrat", sans-serif;
   -webkit-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
@@ -15,7 +15,7 @@ body {
 }
 
 body.switchMode {
-  background-color: #000;
+  background-image: url(img/666.png);
 }
 
 .conteiner {
@@ -164,9 +164,10 @@ body.switchMode .section_title {
 .about_text p {
   font-size: 18px;
   margin-bottom: 25px;
+  color: #f83b3a;
 }
 body.switchMode .about_text p {
-  color: #fff;
+  color: rgb(27, 189, 225);
 }
 .portfolio_items {
   margin-top: 45px;
